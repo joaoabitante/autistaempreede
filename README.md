@@ -15,22 +15,13 @@ sem analytics. O CSP bloqueia qualquer requisição de rede em runtime.
 - `logo.svg` — logo redesenhada em vetor (a página já traz a logo embutida; este arquivo é para reuso).
 - `.htaccess` — HTTPS obrigatório, sem `www`, headers de segurança (CSP, HSTS,
   nosniff, no-referrer, DENY) e cache. Arquivo oculto: confira se ele subiu.
-- `vercel.json` — os mesmos headers de segurança, para quando o site roda na Vercel.
+- `vercel.json` — reserva, caso o site um dia vá para a Vercel (não vai para a Hostinger).
 - `robots.txt`, `sitemap.xml` — indexação.
 
-## Publicar na Vercel (via GitHub)
-1. No GitHub, criar um repositório novo (ex.: `autistaempreende`) e enviar **o conteúdo**
-   desta pasta para a raiz dele (Add file → Upload files). Inclua o `vercel.json`.
-2. Na Vercel (time CONTBITTAX): **Add New → Project** → importar esse repositório.
-   Framework Preset: **Other**. Build Command e Output Directory: deixar vazios.
-3. Deploy. Depois, em **Settings → Domains**, adicionar `autistaempreende.com.br` e
-   `www.autistaempreende.com.br` (redirecionando o `www` para o sem `www`).
-4. No DNS do domínio, criar os registros que a Vercel mostrar (no Cloudflare: proxy cinza).
+## Publicar na Hostinger (hospedagem oficial)
+Enviar só os arquivos do site: `index.html`, `og-image.png`, `logo.svg`,
+`robots.txt`, `sitemap.xml` e `.htaccess`. Os `.md` e o `vercel.json` ficam só no GitHub.
 
-O `.htaccess` não tem efeito na Vercel; ele fica para o caso de usar a Hostinger.
-Deploy só por push no GitHub: nada de `vercel --prod` nem edição no painel.
-
-## Publicar na Hostinger
 1. hPanel → **Sites** → `autistaempreende.com.br` → **Gerenciador de Arquivos**.
 2. Abrir `public_html` e enviar **o conteúdo** desta pasta (não a pasta em si),
    incluindo o `.htaccess`. Se usar o `.zip`, enviar e clicar em **Extrair**.

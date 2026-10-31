@@ -2,6 +2,11 @@
 
 Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/).
 
+## [2.0.1] — 2026-10-31
+### Alterado
+- Hospedagem definida: **Hostinger**. `AGENTS.md` e `README.md` atualizados; o pacote
+  de envio leva só os arquivos do site.
+
 ## [2.0.0] — 2026-10-31
 ### Alterado
 - Redesenho completo, mais moderno: hero escuro em "aurora" azul com colagem da
