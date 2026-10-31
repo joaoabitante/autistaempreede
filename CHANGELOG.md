@@ -2,6 +2,19 @@
 
 Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/).
 
+## [2.1.0] — 2026-10-31
+### Adicionado
+- Seção **"Na mídia"** (podcast Carreira e Suas Vozes; matérias Gamers & Games e GeekPop
+  News sobre o LAIC) e link "Na mídia" no menu.
+- Seção **"Perguntas frequentes"** (MEI, cota PCD, intraempreendedorismo, privacidade,
+  quem criou) com JSON-LD `FAQPage`.
+- JSON-LD `WebSite`; `Organization` com `@id`, `alternateName`, `areaServed` e `knowsAbout`.
+- `llms.txt`; `docs/na-midia.md` (levantamento de publicações) e `docs/plano-de-busca.md`.
+
+### Alterado
+- `<title>` e keywords com os termos de busca do público.
+- `sitemap.xml` com `lastmod` 2026-10-31.
+
 ## [2.0.1] — 2026-10-31
 ### Alterado
 - Hospedagem definida: **Hostinger**. `AGENTS.md` e `README.md` atualizados; o pacote

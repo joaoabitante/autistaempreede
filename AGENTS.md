@@ -12,7 +12,7 @@
 ## Como trabalhar
 - Leia o `README.md` e o `CHANGELOG.md` antes de qualquer mudança.
 - O **GitHub é a única fonte da verdade**; a Hostinger recebe só os arquivos do site
-  (`index.html`, `og-image.png`, `logo.svg`, `robots.txt`, `sitemap.xml`, `.htaccess`).
+  (`index.html`, `og-image.png`, `logo.svg`, `robots.txt`, `sitemap.xml`, `llms.txt`, `.htaccess`).
 - Nunca edite arquivos direto no Gerenciador de Arquivos da Hostinger: mude aqui e reenvie.
 - Commits atômicos (`feat:`, `fix:`, `chore:`, `seo:`) e `CHANGELOG.md` atualizado a cada entrega.
 - Nunca commite segredo.

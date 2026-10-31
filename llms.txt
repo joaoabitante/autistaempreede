@@ -1,0 +1,26 @@
+# Autista Empreende
+
+> Iniciativa de impacto para pessoas autistas que empreendem ou intraempreendem:
+> ferramentas gratuitas que não pedem dados pessoais e orientação direta sobre MEI,
+> carreira, cota PCD e neuroinclusão. Lema: "Interação e empreendedorismo".
+> Site oficial: https://autistaempreende.com.br/
+
+## Quem faz
+- João Carlos Bueno Abitante — Contador CRC-SP 320961/O-4, autista (PCD), pós em Controladoria (FECAP)
+- LinkedIn: https://www.linkedin.com/in/joaocarlos1
+- Portfólio: https://joao.abitante.net/
+- Contato: joao.abitante.contabeis@gmail.com
+
+## Canais
+- YouTube: Autista Empreende TV — https://www.youtube.com/@autistaempreendetv
+- Instagram: https://instagram.com/teaempreende
+
+## Ferramentas gratuitas
+- [Simulador Financeiro MEI](https://mei.contbit.tax/): DAS, teto de faturamento e saúde financeira do MEI
+- [Parcelamento Federal](https://parcelamento.contbit.tax/): simulador de parcelamento Simples, MEI e PGFN
+- [NeuroCompliance NR-1](https://nr1.abitante.net/): diagnóstico NR-1 e maturidade neuroinclusiva para empresas
+
+## Na mídia
+- Podcast Carreira e Suas Vozes (Claudia Cardillo): https://www.m11marketing.com.br/post/autista-empreende-transforma-neurodiversidade-em-inovacao-no-mercado-tema-do-carreira-e-suas-vozes
+- Gamers & Games, LAIC (out/2026): https://www.gamersegames.com.br/2026/10/04/laic-2026-competidor-autista-defende-mais-respeito-e-inclusao-nas-mesas-de-pokemon/
+- GeekPop News, LAIC: https://geekpopnews.com.br/jogador-autista-leva-debate-sobre-inclusao-ao-laic-de-pokemon/
