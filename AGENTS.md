@@ -12,10 +12,14 @@
 ## Como trabalhar
 - Leia o `README.md` e o `CHANGELOG.md` antes de qualquer mudança.
 - O **GitHub é a única fonte da verdade**; a Hostinger recebe só os arquivos do site
-  (`index.html`, `og-image.png`, `logo.svg`, `robots.txt`, `sitemap.xml`, `llms.txt`, `.htaccess`).
+  (`index.html`, `og-image.png`, `logo.svg`, `robots.txt`, `sitemap.xml`, `llms.txt`, `.htaccess` e a pasta `blog/`).
 - Nunca edite arquivos direto no Gerenciador de Arquivos da Hostinger: mude aqui e reenvie.
 - Commits atômicos (`feat:`, `fix:`, `chore:`, `seo:`) e `CHANGELOG.md` atualizado a cada entrega.
 - Nunca commite segredo.
+
+## Blog
+- `blog/` é gerado por `tools/gerar_blog.py` a partir da exportação do LinkedIn; não edite as páginas à mão.
+- Nunca publique edição com dado pessoal (CPF, endereço, telefone pessoal). A carta ao prefeito de SP fica fora por isso.
 
 ## Princípios não-negociáveis
 - **Privacidade/LGPD:** zero coleta de dado pessoal, zero requisição de rede em runtime, zero tracker; `referrer: no-referrer`.

@@ -428,6 +428,17 @@ section.band{padding-block:110px}
 .links b{display:block;font-weight:700;overflow-wrap:anywhere}
 
 
+
+/* Do blog */
+.posts{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:44px}
+@media (max-width:900px){ .posts{grid-template-columns:1fr} }
+.post-card{display:flex;flex-direction:column;gap:10px;background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:26px;text-decoration:none;color:var(--ink);box-shadow:var(--shadow);min-width:0}
+.post-card:hover{border-color:var(--blue)}
+.post-card time{font-size:.8rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.post-card h3{font-size:1.15rem}
+.post-card p{color:var(--muted);font-size:.97rem;line-height:1.55}
+.post-card .go{margin-top:auto;font-weight:750;color:var(--brand)}
+
 /* Na mídia */
 .press{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:44px}
 @media (max-width:900px){ .press{grid-template-columns:1fr} }
@@ -468,6 +479,7 @@ footer .brand-txt small{color:var(--muted)}
       <a href="#caminhos">Caminhos</a>
       <a href="#historia">História</a>
       <a href="#empresas">Empresas</a>
+      <a href="/blog/">Blog</a>
       <a href="#midia">Na mídia</a>
       <a href="#quem">Quem faz</a>
       <a class="cta" href="#contato">Fale comigo</a>
@@ -650,6 +662,24 @@ footer .brand-txt small{color:var(--muted)}
         <li><span class="ci" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M11 5 6 9H2v6h4l5 4V5z"/><path d="m22 9-6 6M16 9l6 6"/></svg></span><strong>Menos ruído</strong><span>Som, luz e interrupções sob controle.</span></li>
         <li><span class="ci" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M20 6 9 17l-5-5"/></svg></span><strong>Critério de "pronto"</strong><span>Todo mundo sabe quando o trabalho está entregue.</span></li>
       </ul>
+    </div>
+  </section>
+
+  <section class="band" id="blog" aria-labelledby="t-blog">
+    <div class="wrap">
+      <div class="points-head">
+        <div class="head">
+          <span class="eyebrow">Do blog</span>
+          <h2 id="t-blog">Textos da newsletter Autista Empreende</h2>
+          <p class="lede">23 textos publicados sobre autismo e carreira, contabilidade, compliance, cripto e vida. Abaixo, os mais recentes sobre autismo e trabalho.</p>
+        </div>
+        <a class="btn primary" href="/blog/">Ver todos os 23 textos</a>
+      </div>
+      <div class="posts">
+        <a class="post-card lift" href="/blog/eu-parei-de-explicar-que-sou-capaz-e-comecei-a-publicar-o-que-eu-faco/"><time datetime="2026-08-05">5 de agosto de 2026</time><h3>Eu parei de explicar que sou capaz e comecei a publicar o que eu faço</h3><p>No dia 3 de agosto recebi o sim. Hoje, dia 5, começo como Analista Financeiro na Caldeira OTC. Entre uma coisa e outra tem uma década de trabalho e dois meses publicando tudo. Sou contador, CRC-SP…</p><span class="go">Ler · 5 min</span></a>
+        <a class="post-card lift" href="/blog/autista-contador-e-empreendedor-por-que-nao-estou-parado-e-mais-do-que/"><time datetime="2026-07-10">10 de julho de 2026</time><h3>Autista, contador e empreendedor: por que &quot;não estou parado&quot; é mais do que uma frase de efeito</h3><p>Sou João Carlos Bueno Abitante, contador CRC-SP 320961/O-4, pós-graduado em Controladoria pela FECAP, com mais de dez anos de mesa, prazo e cliente. Também sou autista — e é sobre essa combinação que…</p><span class="go">Ler · 3 min</span></a>
+        <a class="post-card lift" href="/blog/carta-aberta-a-sociedade-brasileira-compromisso-nacional-pela/"><time datetime="2026-03-31">31 de março de 2026</time><h3>Carta Aberta à Sociedade Brasileira - Compromisso Nacional pela Contratação da Pessoa com Autismo</h3><p>À sociedade brasileira, aos empresários, aos empreendedores, aos gestores públicos, às famílias e a todos que acreditam que liberdade e dignidade são inseparáveis: Vivemos em um país de talentos…</p><span class="go">Ler · 1 min</span></a>
+      </div>
     </div>
   </section>
 

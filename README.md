@@ -17,11 +17,13 @@ sem analytics. O CSP bloqueia qualquer requisição de rede em runtime.
   nosniff, no-referrer, DENY) e cache. Arquivo oculto: confira se ele subiu.
 - `vercel.json` — reserva, caso o site um dia vá para a Vercel (não vai para a Hostinger).
 - `robots.txt`, `sitemap.xml`, `llms.txt` — indexação (buscadores e assistentes de IA).
+- `blog/` — blog gerado a partir da newsletter do LinkedIn (não editar à mão; ver abaixo).
+- `tools/gerar_blog.py` — gerador do blog.
 - `docs/na-midia.md` — onde o projeto já foi citado; `docs/plano-de-busca.md` — divulgação.
 
 ## Publicar na Hostinger (hospedagem oficial)
 Enviar só os arquivos do site: `index.html`, `og-image.png`, `logo.svg`,
-`robots.txt`, `sitemap.xml`, `llms.txt` e `.htaccess`. Os demais `.md` e o `vercel.json` ficam só no GitHub.
+`robots.txt`, `sitemap.xml`, `llms.txt`, `.htaccess` e a pasta `blog/`. Os demais `.md` e o `vercel.json` ficam só no GitHub.
 
 1. hPanel → **Sites** → `autistaempreende.com.br` → **Gerenciador de Arquivos**.
 2. Abrir `public_html` e enviar **o conteúdo** desta pasta (não a pasta em si),
@@ -35,3 +37,12 @@ Enviar só os arquivos do site: `index.html`, `og-image.png`, `logo.svg`,
 - Baixa estimulação: sem animação, paleta calma, contraste AA nos dois temas (claro/escuro automático).
 - Texto direto, fonte grande, linhas curtas, link "pular para o conteúdo" e foco visível.
 - Só cita ferramentas que existem e estão no ar.
+
+## Atualizar o blog (edição nova na newsletter)
+1. LinkedIn → Configurações → Privacidade de dados → Obter uma cópia dos seus dados → **Artigos**.
+2. Extrair o zip numa pasta fora do repositório.
+3. `python3 -I tools/gerar_blog.py <pasta>/Articles/Articles .`
+4. Conferir se a edição nova não traz dado pessoal (CPF, endereço, telefone). Se trouxer,
+   colocar o título em `EXCLUIR` no gerador. Edição nova cai no tema "vida" até ser
+   mapeada em `TEMA_POR_TITULO`.
+5. Atualizar `sitemap.xml`, `llms.txt` e a seção "Do blog" da página inicial; commit.

@@ -2,6 +2,23 @@
 
 Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/).
 
+## [2.2.0] — 2026-11-01
+### Adicionado
+- **Blog** em `/blog/` com 23 edições da newsletter "Autista Empreende" do LinkedIn
+  (fev–set/2026), em quatro temas: Autismo, carreira e inclusão; Contabilidade,
+  compliance e IA; Cripto e fintech; Vida, jogos e opinião. Cada artigo tem página
+  própria com JSON-LD `BlogPosting`, link para o original no LinkedIn e "Continue lendo".
+- Seção "Do blog" na página inicial (3 textos mais recentes sobre autismo e trabalho)
+  e link "Blog" no menu.
+- `tools/gerar_blog.py`: gera o blog a partir da exportação de artigos do LinkedIn.
+- `sitemap.xml` com as 25 URLs; `llms.txt` com a lista de artigos.
+
+### Não publicado (de propósito)
+- "Carta aberta para o prefeito de São Paulo Ricardo Nunes": o texto traz CPF e
+  endereço residencial do autor.
+- 2 rascunhos não publicados e 12 artigos antigos (2016–2021) fora da newsletter.
+- Imagens dos artigos (hospedadas no LinkedIn; quebrariam a regra de zero requisição externa).
+
 ## [2.1.0] — 2026-10-31
 ### Adicionado
 - Seção **"Na mídia"** (podcast Carreira e Suas Vozes; matérias Gamers & Games e GeekPop
