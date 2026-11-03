@@ -8,6 +8,13 @@ RewriteCond %{HTTPS} off [OR]
 RewriteCond %{HTTP_HOST} ^www\. [NC]
 RewriteRule ^ https://autistaempreende.com.br%{REQUEST_URI} [L,R=301]
 
+# Blog antigo (modelo de escritório contábil que ficava neste domínio): qualquer
+# endereço em /blog/ que não exista mais nesta versão vai, com 301, para a lista
+# do blog novo. Assim o Google não perde o que já tinha indexado e não cria 404.
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^blog/.+ /blog/ [L,R=301]
+
 <IfModule mod_headers.c>
   Header always set Content-Security-Policy "default-src 'none'; img-src 'self' data:; style-src 'unsafe-inline'; base-uri 'none'; form-action 'none'; connect-src 'none'; frame-ancestors 'none'; upgrade-insecure-requests"
   Header always set Referrer-Policy "no-referrer"
