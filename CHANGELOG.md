@@ -2,6 +2,13 @@
 
 Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/).
 
+## [2.2.1] — 2026-11-03
+### Adicionado
+- `.htaccess`: 301 de qualquer URL antiga em `/blog/` que não exista mais para `/blog/`.
+  O domínio servia um modelo de escritório contábil ("Contabilidade em São Paulo",
+  "Notícias Empresariais") que o Google ainda tem no índice; a versão 2.x nunca tinha
+  sido enviada à Hostinger.
+
 ## [2.2.0] — 2026-11-01
 ### Adicionado
 - **Blog** em `/blog/` com 23 edições da newsletter "Autista Empreende" do LinkedIn
