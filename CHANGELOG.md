@@ -4,6 +4,8 @@ Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/).
 
 ## [2.2.2] — 2026-11-04
 ### Alterado
+- Foto nova, com a camisa da Urban, no hero e em "Quem faz" (JPEG 400×400 embutido) e no
+  cartão esquerdo da `og-image.png`, no lugar da logo.
 - Linha do tempo com a fusão Grupo Caldeira OTC + Urban (19/10/2026) e a efetivação como
   Analista Financeiro na Urban (03/11/2026); cargo atual em "Quem faz".
 
