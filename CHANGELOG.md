@@ -2,6 +2,11 @@
 
 Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/).
 
+## [2.2.2] — 2026-11-04
+### Alterado
+- Linha do tempo com a fusão Grupo Caldeira OTC + Urban (19/10/2026) e a efetivação como
+  Analista Financeiro na Urban (03/11/2026); cargo atual em "Quem faz".
+
 ## [2.2.1] — 2026-11-03
 ### Adicionado
 - `.htaccess`: 301 de qualquer URL antiga em `/blog/` que não exista mais para `/blog/`.
